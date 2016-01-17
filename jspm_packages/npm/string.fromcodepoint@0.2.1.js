@@ -1,0 +1,1 @@
+module.exports = require("npm:string.fromcodepoint@0.2.1/fromcodepoint.js");

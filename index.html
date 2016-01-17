@@ -1,0 +1,34 @@
+<html>
+
+  <head>
+    <title>Angular 2 QuickStart</title>
+    <link rel="stylesheet" href="semantics.css" type="text/css" media="all" />
+
+
+  </head>
+
+  <!-- 3. Display the application -->
+  <body>
+      <main class="ui container">
+        <h1>Base65536</h1>
+        <base65536 class="field">
+          <div class="ui form loading">
+          </div>
+        </base65536>
+      </main>
+  </body>
+
+  <!-- 1. Load libraries -->
+  <script src="lib/angular2-polyfills.min.js"></script>
+  <script src="jspm_packages/system.js"></script>
+  <script src="lib/Rx.min.js"></script>
+  <script src="lib/angular2.min.js"></script>
+
+  <!-- 2. Configure SystemJS -->
+  <script src="config.js"></script>
+  <script>
+    System.import('dist/boot')
+          .then(null, console.error.bind(console));
+  </script>
+
+</html>
